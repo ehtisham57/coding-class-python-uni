@@ -71,5 +71,6 @@
 #     {"name": "Isaac", "age": 33, "city": "Denver"},
 #     {"name": "Jack", "age": 26, "city": "Austin"}
 # ]
-
 # print(sorted(people, key= lambda x : x['name']))
+# print(sorted(people, key= lambda x : (x['name'],x['age'])))
+
